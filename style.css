@@ -72,7 +72,7 @@ ul{
     background: #EEEEEE;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    width:100%;
     /* padding-bottom: 52px; */
 }
 .problem__inner{
@@ -97,6 +97,7 @@ h1{
     align-items: center;
     color: #FFFFFF;
     text-align: center;
+    width:100%;
 }
 .hero__text{
     display: flex;
@@ -129,7 +130,7 @@ h1{
     background: #EEEEEE;
     display: flex;
     color: #007765;
-    margin: 0 auto;
+    width:100%;
 }
 .team__items{
     display: flex;
@@ -145,7 +146,6 @@ h1{
     display: flex;
     width: 168px;
     height: 168px;
-    margin: 0 auto;
 }
 .team__item-title{
     font-weight: 700;
@@ -166,6 +166,7 @@ h1{
     background: #333333;
     color: #FFFFFF;
     text-align: center;
+    width:100%;
 }
 .footer__text{
     display: flex;
@@ -185,6 +186,12 @@ h1{
     background-clip: content-box;
 }
 #coin{
+    padding-top: 84px;
+    margin-top: -84px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+#team{
     padding-top: 84px;
     margin-top: -84px;
     -webkit-background-clip: content-box;
