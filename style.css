@@ -114,11 +114,13 @@ h1{
     background: #FFFFFF;
     display: flex;
     align-items: center;
-    padding-bottom: 52px;
 }
 .introducing__inner{
     color: #007765;
     text-align: center;
+}
+.introducing__text{
+    padding-bottom: 52px;
 }
 .logo1{
     height: 115px;
@@ -129,8 +131,9 @@ h1{
 .team{
     background: #EEEEEE;
     display: flex;
+    width: 100%;
     color: #007765;
-    width:100%;
+    margin: 0 auto;
 }
 .team__items{
     display: flex;
@@ -146,6 +149,7 @@ h1{
     display: flex;
     width: 168px;
     height: 168px;
+    margin: 0 auto;
 }
 .team__item-title{
     font-weight: 700;
@@ -166,7 +170,7 @@ h1{
     background: #333333;
     color: #FFFFFF;
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 .footer__text{
     display: flex;
